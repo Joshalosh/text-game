@@ -5,16 +5,16 @@ def intro():
 
 	print("\n"*5)
 	print("You stare at a screen")
-	#time.sleep(5)
+	time.sleep(5)
 	print("")
 	print("Words come at you")
-	#time.sleep(7)
+	time.sleep(7)
 	print("\n"*2)
 	print("At an alarmingly slow pace")
-	#time.sleep(5)
+	time.sleep(5)
 	print("")
 	print("You finally get the chance to type some shit into the computer")
-	#time.sleep(1)
+	time.sleep(1)
 	while state != True:
 		inp = input("\nSo you type 'Begin': ").lower()
 		greetings = ['hey', 'hi', 'hello', 'sup', 'yo',
@@ -31,9 +31,9 @@ def intro():
 		elif inp in greetings:
 			print("{} back at you!".format(inp.capitalize()))
 		elif inp in rude:
-			#time.sleep(1)
+			time.sleep(1)
 			print("\n...")
-			#time.sleep(1)
+			time.sleep(1)
 			print("\n...That wasn't a very nice thing to say")
 		elif inp[0] in number:
 			print("So you're a maths nerd huh?")
