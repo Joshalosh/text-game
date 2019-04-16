@@ -68,6 +68,7 @@ def game():
 	print("\nCongratulations! You win the game")
 	time.sleep(2)
 	print("\nBut at what cost?\n")
+	time.sleep(100000000)
 
 intro()
 game()
